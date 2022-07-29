@@ -1,7 +1,9 @@
 local wezterm = require('wezterm')
+local colors = require('lua/rose-pine-moon').colors()
 
 return {
-  color_scheme = 'Builtin Solarized Light',
+  color_scheme = 'rose-pine-moon',
+  colors = colors,
   default_cursor_style = 'BlinkingBar',
 
   -- Font.
